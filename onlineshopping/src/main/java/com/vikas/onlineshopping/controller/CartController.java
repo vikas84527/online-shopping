@@ -26,7 +26,7 @@ public class CartController {
 		mv.addObject("title", "Shopping Cart");
 		mv.addObject("userClickShowCart", true);
 		
-		if(result!=null) {
+		if(result != null) {
 			switch(result) {
 				case "added":
 					mv.addObject("message", "Product has been successfully added inside cart!");					
