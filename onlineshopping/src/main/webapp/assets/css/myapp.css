@@ -157,6 +157,7 @@ input:checked + .slider:before {
 
 
 /*Shopping Cart*/
+
 .table>tbody>tr>td, .table>tfoot>tr>td{
     vertical-align: middle;
 }
@@ -233,4 +234,3 @@ input:checked + .slider:before {
 		z-index:9999;
 		background:url(../images/pre-loader.gif) 50% no-repeat #fff
 }
-
